@@ -27,11 +27,11 @@ const UserActions = () => {
           {/* <Link to={`#`}>
             <Button className="app-btn">Bids</Button>
           </Link> */}
-          {canCreate ? (
+          {/* {canCreate ? (
             <Link to={`/art/create`}>
               <Button className="app-btn">Create</Button>
             </Link>
-          ) : null}
+          ) : null} */}
           <Link to={`/auction/create/0`}>
             <Button className="connector" type="primary">
               Sell
@@ -60,9 +60,9 @@ const DefaultActions = ({ vertical = false }: { vertical?: boolean }) => {
           {connected ? 'My Items' : 'Artworks'}
         </Button>
       </Link>
-      <Link to={`/artists`}>
+      {/* <Link to={`/artists`}>
         <Button className="app-btn">Creators</Button>
-      </Link>
+      </Link> */}
     </div>
   );
 };
@@ -92,11 +92,11 @@ const MetaplexMenu = () => {
                   </Button>
                 </Link>
               </Menu.Item>
-              <Menu.Item>
+              {/* <Menu.Item>
                 <Link to={`/artists`}>
                   <Button className="app-btn">Creators</Button>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
             </Menu>
           }
         >
